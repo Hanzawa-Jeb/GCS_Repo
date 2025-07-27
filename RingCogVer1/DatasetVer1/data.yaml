@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['b', 'g', 'red-green-blue']
+
+roboflow:
+  workspace: gcs-9rs6r
+  project: gcs_cv
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/gcs-9rs6r/gcs_cv/dataset/3

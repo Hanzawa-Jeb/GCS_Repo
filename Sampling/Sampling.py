@@ -6,12 +6,12 @@ cam = camera.Camera(640, 480)
 disp = display.Display()
 
 # 设置保存路径
-save_dir = "/mnt/RingsCognitionDS"
+save_dir = "/mnt/ObjCogDS"
 if not os.path.exists(save_dir):
     os.mkdir(save_dir)
 
-interval = 1         # 每隔多少秒保存一次
-count = 120           # 从第几张图片开始命名
+interval = 1.5         # 每隔多少秒保存一次
+count = 136           # 从第几张图片开始命名
 
 last_save_time = time.time()  # 上一次保存的时间戳
 
